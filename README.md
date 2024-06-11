@@ -8,3 +8,8 @@ Hello, from README.md.
 docker build -t airflow-eks-docker .
 ```
 
+## Run Docker container
+```
+docker run -d -p 8080:8080 airflow-eks-docker
+```
+
